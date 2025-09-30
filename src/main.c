@@ -4,7 +4,7 @@
 #include "./../include/calculator.h"
 
 int main(int argc, char *argv[]){
-	if (argc == 5)
+	if (argc == 4)
 	{
 	char* op = argv[1];
 	char* a = argv[2];
@@ -27,7 +27,7 @@ int main(int argc, char *argv[]){
 		printf("%lf",r);
 	}
 	else if (strcmp(op, "carre") == 0) {
-		r = _carre(atof(a));
+		r = _carre(atof(a),atof(b));
 		printf("%lf",r);
 	}
 	else {printf("Erreur de parametres");}

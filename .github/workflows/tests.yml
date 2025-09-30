@@ -83,7 +83,7 @@ jobs:
           cd build
           cmake ..
           make
-          ./src/calculator carre 10 
+          ./src/calculator carre 10 0
   Deploy:
     runs-on: ubuntu-latest
     needs:
