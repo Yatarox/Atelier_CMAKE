@@ -16,7 +16,7 @@ double _div(double a, double b) {
 	return a/b;
 }
 
-double carre(double a) {
+double _carre(double a) {
     return a * a;
 }
 
